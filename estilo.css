@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(141, 33, 152);
+}
+
+#meuId {
+    color: blue;
+}
+
+h1:hover {
+    color: blue;
+}
+
+
+/*
+Exemplo padding
+.img1 {
+    border: solid 5px black; /* Borda que vai cobrir nosso elemento --> 
+    width: 600px; /* Largura da borda
+    margin-top: 220px; /* Afasta a imagem de cima para baixo
+    margin-left: 300px;  /* Afasta a imagem da esquerda para a direita
+    
+}
+*/
+
+.img1 {
+    border: solid 5px black;
+    /* Borda que vai cobrir nosso elemento --> */
+    width: 600px;
+    /* Largura da borda*/
+    margin-top: 220px;
+    /* Afasta a imagem de cima para baixo*/
+    margin-left: 300px;
+    /* Afasta a imagem da esquerda para a direita*/
+    padding-top: 200px;
+    /* Afasta a imagem da borda (de cima para baixo) em 200 pixels*/
+}
+
+.classeTeste {
+    color: blue;
+    font-size: 50px;
+    font-family: Mulish;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* gap: 30px; */
+    /* grid-column-gap: 220px; */
+    /* grid-row-gap: 220px;*/
+}
+
+.box1 {}
+
+.box2 {}
+
+.box3 {}
